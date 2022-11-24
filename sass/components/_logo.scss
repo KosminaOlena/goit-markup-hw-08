@@ -1,0 +1,23 @@
+ .logo {
+     font-family: Raleway, sans-serif;
+     font-size: 24px;
+     line-height: 1.2;
+     letter-spacing: 0.03em;
+     color: $black-color;
+
+     &--accent {
+         color: $accent-color;
+     }
+
+     &--dark-theme {
+         display: block;
+         margin-bottom: 20px;
+         color: $white-color;
+     }
+ }
+
+ .site-nav__logo {
+     padding-top: 24px;
+     padding-bottom: 25px;
+     margin-right: 93px;
+ }
