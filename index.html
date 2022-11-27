@@ -56,13 +56,80 @@
             </a>
           </li>
         </ul>
-        <button type="button" class="menu-btn is-open">
+      </div>
+      <!-- 
+  ======================================================================
+  моє мобільне меню
+  ======================================================================
+ -->
+      <!-- <button
+          type="button"
+          class="menu-btn"
+          data-menu-button
+          aria-expanded="false"
+          aria-controls="menu-container"
+        >
           <svg width="40" height="40" aria-label="Перемикач мобільного меню">
             <use class="icon-menu" href="./images/icons.svg#menu"></use>
             <use class="icon-cross" href="./images/icons.svg#cross"></use>
           </svg>
         </button>
-      </div>
+        <div class="menu-container" id="menu-container" data-menu>
+          <nav class="site-nav">
+            <ul class="site-nav__list list">
+              <li class="site-nav__item">
+                <a
+                  href="./index.html"
+                  class="site-nav__link site-nav__link--current"
+                  >Студія</a
+                >
+              </li>
+              <li class="site-nav__item">
+                <a href="./portfolio.html" class="site-nav__link">Портфоліо</a>
+              </li>
+              <li class="site-nav__item">
+                <a href="" class="site-nav__link">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="head-address list">
+            <li class="head-address__item">
+              <a href="mailto:info@devstudio.com" class="head-address__link">
+                <svg class="head-address__icon" width="16" height="12">
+                  <use href="./images/icons.svg#envelope"></use>
+                </svg>
+                info@devstudio.com
+              </a>
+            </li>
+            <li class="head-address__item">
+              <a href="tel:+380961111111" class="head-address__link">
+                <svg class="head-address__icon" width="10" height="16">
+                  <use href="./images/icons.svg#smartphone"></use>
+                </svg>
+                +38 096 111 11 11
+              </a>
+            </li>
+          </ul>
+          <ul class="menu-container__list list">
+            <li>
+              <a href="" class="menu-container__link">Instagram</a>
+            </li>
+            <li class="list">
+              <a href="" class="menu-container__link">Twitter</a>
+            </li>
+            <li class="list">
+              <a href="" class="menu-container__link">Facebook</a>
+            </li>
+            <li class="list">
+              <a href="" class="menu-container__link">LinkedIn</a>
+            </li>
+          </ul> -->
+      <!-- </div> -->
+      <!-- 
+  ======================================================================
+  моє мобільне меню___кінець
+  ======================================================================
+ -->
     </header>
     <main>
       <!--герой-->
@@ -402,7 +469,7 @@
             </ul>
           </address>
         </div>
-        <div>
+        <div class="footer__secondary-wrap">
           <p class="footer__invite">Приєднуйтесь</p>
           <ul class="socials list">
             <li class="socials__item">
@@ -533,5 +600,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

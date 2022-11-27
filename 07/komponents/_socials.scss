@@ -1,15 +1,10 @@
 .socials {
     display: flex;
     gap: 10px;
-    width: 206px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .socials__item {
-    
     flex-basis: calc((100% - 30px) / 4);
-    
 }
 
 .socials__link {

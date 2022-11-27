@@ -1,13 +1,9 @@
  .logo {
      font-family: Raleway, sans-serif;
-     font-size: 24px;
+     font-size: 26px;
      line-height: 1.2;
      letter-spacing: 0.03em;
      color: $black-color;
-
-     @media screen and (min-width: 1200px) {
-        font-size: 26px;
-     }
 
      &--accent {
          color: $accent-color;
