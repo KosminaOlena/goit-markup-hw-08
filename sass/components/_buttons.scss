@@ -56,21 +56,13 @@
 }
 
 .menu-btn {
-    @media screen and (min-width: 768px) {
-      display: none;  
-    }
-    display: inline-block;
+
     padding: 0;
     margin: 0;
     border: none;
     background-color: transparent;
-    & .icon-cross {
-        display: none;
-    }
-    &.is-open .icon-cross {
-        display: block;
-    }
-        &.is-open .icon-menu {
+    cursor: pointer;
+    @media screen and (min-width: 768px) {
             display: none;
         }
         

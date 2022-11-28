@@ -1,5 +1,6 @@
 .header {
     border-bottom: 1px solid #ECECEC;
+    
 }
 
 .header__container {
@@ -22,6 +23,7 @@
        display: none; 
     }
 }
+
 
 .head-address {
     
@@ -78,7 +80,6 @@
 }
 
 .head-address__link {
-   
     display: flex;
     align-items: center;
     padding-top: 5px;
@@ -89,6 +90,7 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     transition: color $trans-value;
+
     @media screen and (min-width: 1200px){
     padding-top: 32px;
     padding-bottom: 32px;
