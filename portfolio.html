@@ -61,7 +61,7 @@
     <main>
       <section class="section">
         <div class="container">
-          <!-- <h1 class="hidden">Наші роботи</h1>
+          <h1 class="hidden">Наші роботи</h1>
           <ul class="filter-buttons list">
             <li class="filter-buttons__item">
               <button type="button" class="btn-secondary">Усі</button>
@@ -78,15 +78,42 @@
             <li class="filter-buttons__item">
               <button type="button" class="btn-secondary">Маркетинг</button>
             </li>
-          </ul> -->
+          </ul>
           <ul class="projects list">
             <li class="projects__item">
-              <a href="">
+              <a href="projects__link">
                 <div class="projects__thumb">
-                  <img
-                    src="images/portfolio_1_desktop.jpg"
-                    alt="Веб-сайт Технокряк"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/img_1_desktop@1x.jpg 370w,
+                        ./images/portfolio/img_1_desktop@2x.jpg 740w
+                      "
+                      media="(min-width: 1200px)"
+                      sizes="(min-width:1200px) 370px, 30vw"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_1_tablet@1x.jpg 354w,
+                        ./images/portfolio/img_1_tablet@2x.jpg 708w
+                      "
+                      media="(min-width: 768px)"
+                      sizes="(min-width:1200px) 354px, 50vw"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_1_mobile@1x.jpg 450w,
+                        ./images/portfolio/img_1_mobile@2x.jpg 900w
+                      "
+                      media="(max-width: 767px)"
+                      sizes="(max-width:767px) 450px, 100vw"
+                    />
+
+                    <img
+                      src="./images/portfolio/img_1_tablet@1x.jpg"
+                      alt="Веб-сайт Технокряк"
+                    />
+                  </picture>
                   <div class="projects__overlay">
                     <p class="projects__lead">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -104,12 +131,38 @@
               </a>
             </li>
             <li class="projects__item">
-              <a href="">
+              <a href="projects__link">
                 <div class="projects__thumb">
-                  <img
-                    src="images/portfolio_1_desktop.jpg"
-                    alt="Постер New Orlean vs Golden Star"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/img_2_desktop@1x.jpg 370w,
+                        ./images/portfolio/img_2_desktop@2x.jpg 740w
+                      "
+                      media="(min-width: 1200px)"
+                      sizes="(min-width:1200px) 370px, 30vw"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_2_tablet@1x.jpg 354w,
+                        ./images/portfolio/img_2_tablet@2x.jpg 708w
+                      "
+                      media="(min-width: 768px)"
+                      sizes="(min-width:1200px) 354px, 50vw"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_2_mobile@1x.jpg 450w,
+                        ./images/portfolio/img_2_mobile@2x.jpg 900w
+                      "
+                      media="(max-width: 767px)"
+                      sizes="(max-width:767px) 450px, 100vw"
+                    />
+                    <img
+                      src="./images/portfolio/img_2_tablet@1x.jpg"
+                      alt="Постер New Orlean vs Golden Star"
+                    />
+                  </picture>
                   <div class="projects__overlay">
                     <p class="projects__lead">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -130,10 +183,36 @@
             <li class="projects__item">
               <a href="">
                 <div class="projects__thumb">
-                  <img
-                    src="images/portfolio_1_desktop.jpg"
-                    alt="Додаток Ресторан Seafood"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/img_3_desktop@1x.jpg 370w,
+                        ./images/portfolio/img_3_desktop@2x.jpg 740w
+                      "
+                      media="(min-width: 1200px)"
+                      sizes="(min-width:1200px) 370px, 30vw"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_3_tablet@1x.jpg 354w,
+                        ./images/portfolio/img_3_tablet@2x.jpg 708w
+                      "
+                      media="(min-width: 768px)"
+                      sizes="(min-width:1200px) 354px, 50vw"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_3_mobile@1x.jpg 450w,
+                        ./images/portfolio/img_3_mobile@2x.jpg 900w
+                      "
+                      media="(max-width: 767px)"
+                      sizes="(max-width:767px) 450px, 100vw"
+                    />
+                    <img
+                      src="./images/portfolio/img_3_tablet@1x.jpg"
+                      alt="Додаток Ресторан Seafood"
+                    />
+                  </picture>
                   <div class="projects__overlay">
                     <p class="projects__lead">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -152,10 +231,36 @@
             <li class="projects__item">
               <a href="">
                 <div class="projects__thumb">
-                  <img
-                    src="images/portfolio_1_desktop.jpg"
-                    alt="Проєкт Prime"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/img_4_desktop@1x.jpg 370w,
+                        ./images/portfolio/img_4_desktop@2x.jpg 740w
+                      "
+                      media="(min-width: 1200px)"
+                      sizes="(min-width:1200px) 370px, 30vw"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_4_tablet@1x.jpg 354w,
+                        ./images/portfolio/img_4_tablet@2x.jpg 708w
+                      "
+                      media="(min-width: 768px)"
+                      sizes="(min-width:1200px) 354px, 50vw"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_4_mobile@1x.jpg 450w,
+                        ./images/portfolio/img_4_mobile@2x.jpg 900w
+                      "
+                      media="(max-width: 767px)"
+                      sizes="(max-width:767px) 450px, 100vw"
+                    />
+                    <img
+                      src="./images/portfolio/img_4_tablet@1x.jpg"
+                      alt="Проєкт Prime"
+                    />
+                  </picture>
                   <div class="projects__overlay">
                     <p class="projects__lead">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -174,10 +279,36 @@
             <li class="projects__item">
               <a href="">
                 <div class="projects__thumb">
-                  <img
-                    src="images/portfolio_1_desktop.jpg"
-                    alt="Проєкт Boxes"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/img_5_desktop@1x.jpg 370w,
+                        ./images/portfolio/img_5_desktop@2x.jpg 740w
+                      "
+                      media="(min-width: 1200px)"
+                      sizes="(min-width:1200px) 370px, 30vw"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_5_tablet@1x.jpg 354w,
+                        ./images/portfolio/img_5_tablet@2x.jpg 708w
+                      "
+                      media="(min-width: 768px)"
+                      sizes="(min-width:1200px) 354px, 50vw"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_5_mobile@1x.jpg 450w,
+                        ./images/portfolio/img_5_mobile@2x.jpg 900w
+                      "
+                      media="(max-width: 767px)"
+                      sizes="(max-width:767px) 450px, 100vw"
+                    />
+                    <img
+                      src="./images/portfolio/img_5_tablet@1x.jpg"
+                      alt="Проєкт Boxes"
+                    />
+                  </picture>
                   <div class="projects__overlay">
                     <p class="projects__lead">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -196,10 +327,36 @@
             <li class="projects__item">
               <a href="">
                 <div class="projects__thumb">
-                  <img
-                    src="images/portfolio_1_desktop.jpg"
-                    alt="Веб-сайт Inspiration has no Borders"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/img_6_desktop@1x.jpg 370w,
+                        ./images/portfolio/img_6_desktop@2x.jpg 740w
+                      "
+                      media="(min-width: 1200px)"
+                      sizes="(min-width:1200px) 370px, 30vw"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_6_tablet@1x.jpg 354w,
+                        ./images/portfolio/img_6_tablet@2x.jpg 708w
+                      "
+                      media="(min-width: 768px)"
+                      sizes="(min-width:1200px) 354px, 50vw"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_6_mobile@1x.jpg 450w,
+                        ./images/portfolio/img_6_mobile@2x.jpg 900w
+                      "
+                      media="(max-width: 767px)"
+                      sizes="(max-width:767px) 450px, 100vw"
+                    />
+                    <img
+                      src="./images/portfolio/img_6_tablet@1x.jpg"
+                      alt="Веб-сайт Inspiration has no Borders"
+                    />
+                  </picture>
                   <div class="projects__overlay">
                     <p class="projects__lead">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -218,10 +375,36 @@
             <li class="projects__item">
               <a href="">
                 <div class="projects__thumb">
-                  <img
-                    src="images/portfolio_1_desktop.jpg"
-                    alt="Видання Limited Edition"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/img_7_desktop@1x.jpg 370w,
+                        ./images/portfolio/img_7_desktop@2x.jpg 740w
+                      "
+                      media="(min-width: 1200px)"
+                      sizes="(min-width:1200px) 370px, 30vw"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_7_tablet@1x.jpg 354w,
+                        ./images/portfolio/img_7_tablet@2x.jpg 708w
+                      "
+                      media="(min-width: 768px)"
+                      sizes="(min-width:1200px) 354px, 50vw"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_7_mobile@1x.jpg 450w,
+                        ./images/portfolio/img_7_mobile@2x.jpg 900w
+                      "
+                      media="(max-width: 767px)"
+                      sizes="(max-width:767px) 450px, 100vw"
+                    />
+                    <img
+                      src="./images/portfolio/img_7_tablet@1x.jpg"
+                      alt="Видання Limited Edition"
+                    />
+                  </picture>
                   <div class="projects__overlay">
                     <p class="projects__lead">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -240,7 +423,36 @@
             <li class="projects__item">
               <a href="">
                 <div class="projects__thumb">
-                  <img src="images/portfolio_1_desktop.jpg" alt="Проєкт LAB" />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/img_8_desktop@1x.jpg 370w,
+                        ./images/portfolio/img_8_desktop@2x.jpg 740w
+                      "
+                      media="(min-width: 1200px)"
+                      sizes="(min-width:1200px) 370px, 30vw"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_8_tablet@1x.jpg 354w,
+                        ./images/portfolio/img_8_tablet@2x.jpg 708w
+                      "
+                      media="(min-width: 768px)"
+                      sizes="(min-width:1200px) 354px, 50vw"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_8_mobile@1x.jpg 450w,
+                        ./images/portfolio/img_8_mobile@2x.jpg 900w
+                      "
+                      media="(max-width: 767px)"
+                      sizes="(max-width:767px) 450px, 100vw"
+                    />
+                    <img
+                      src="./images/portfolio/img_8_tablet@1x.jpg"
+                      alt="Проєкт LAB"
+                    />
+                  </picture>
                   <div class="projects__overlay">
                     <p class="projects__lead">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -259,10 +471,34 @@
             <li class="projects__item">
               <a href="">
                 <div class="projects__thumb">
-                  <img
-                    src="images/portfolio_1_desktop.jpg"
-                    alt="Додаток Growing Business"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/img_9_desktop@1x.jpg 370w,
+                        ./images/portfolio/img_9_desktop@2x.jpg 740w
+                      "
+                      media="(min-width: 1200px)"
+                      sizes="(min-width:1200px) 370px, 30vw"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_9_tablet@1x.jpg 354w,
+                        ./images/portfolio/img_9_tablet@2x.jpg 708w
+                      "
+                      media="(min-width: 768px)"
+                      sizes="(min-width:1200px) 354px, 50vw"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_9_mobile@1x.jpg 450w,
+                        ./images/portfolio/img_9_mobile@2x.jpg 900w
+                      "
+                      media="(max-width: 767px)"
+                      sizes="(max-width:767px) 450px, 100vw"
+                    />
+                    <img src=./images/portfolio/img_9_tablet@1x.jpg alt="Додаток
+                    Growing Business" />
+                  </picture>
                   <div class="projects__overlay">
                     <p class="projects__lead">
                       Ресурс пропонує комплексні пропозиції з різним рівнем

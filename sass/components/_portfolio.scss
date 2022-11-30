@@ -1,7 +1,18 @@
 .filter-buttons {
     display: flex;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    @media screen and (max-width: 767px) {
+    width: 330px;
+    }
+    @media screen and (min-width: 768px) {
     justify-content: center;
-    margin-bottom: 50px;
+        margin-bottom: 30px;
+    }
+        @media screen and (min-width: 1200px) {
+            margin-bottom: 50px;
+        }
+    
 }
 
 .filter-buttons__item:not(:last-child) {
@@ -76,6 +87,10 @@
             width: 322px;
         }
 
+}
+.projects__link {
+    display: flex;
+    flex-direction: column;
 }
 
 .projects__text {
