@@ -12,15 +12,15 @@
     transform: translateX(100%);
         transition: transform 250ms ease-in-out;
  &.is-open {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
  }
 }
 .menu-container.is-open {
     transform: translateX(0);
 }
-.menu-container__list {
-    display: flex;
-}
+
 .menu-container__link {
     font-family: 'Roboto';
     color: $accent-color;
@@ -79,9 +79,17 @@
         fill: $accent-color;
     }
 }
-
+.menu-nav__item {
+    display: block;
+    padding: 0;
+    &:not(:last-child) {
+        margin-bottom: 32px;
+    }
+    
+    
+}
 .menu-nav__link {
-
+    display: block;
         font-weight: 500;
         font-size: 40px;
         line-height: 1.18;
@@ -126,12 +134,19 @@
 }
 
 .menu-address {
-    
+    margin-top: auto;
     margin-bottom: 64px;
+}
+.menu-address__item {
+    display: block;
+    padding: 0;
+        &:not(:last-child) {
+            margin-bottom: 32px;
+        }
 }
 
 .menu-address__tel {
-
+        display: block; 
         font-weight: 500;
         font-size: 34px;
         line-height: 1.18;
@@ -143,7 +158,7 @@
         }
 }
 .menu-address__mail {
-
+        display: block;
         font-weight: 500;
         font-size: 24px;
         line-height: 1.17;

@@ -56,17 +56,17 @@
             </a>
           </li>
         </ul>
-        <!-- кнопка мобил меню -->
-        <button
-          class="menu-btn js-open-menu"
-          aria-expanded="false"
-          aria-controls="mobile-menu"
-        >
-          <svg width="40" height="40" aria-label="Перемикач мобільного меню">
-            <use class="icon-menu" href="./images/icons.svg#menu"></use>
-          </svg>
-        </button>
       </div>
+      <!-- кнопка мобільного меню -->
+      <button
+        class="menu-btn js-open-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg width="40" height="40" aria-label="Перемикач мобільного меню">
+          <use class="icon-menu" href="./images/icons.svg#menu"></use>
+        </svg>
+      </button>
     </header>
     <main>
       <!--герой-->
@@ -596,12 +596,14 @@
         </form>
       </div>
     </div>
+    <!-- мобільне меню -->
     <div class="menu-container js-menu-container" id="mobile-menu">
       <button class="menu-toggle js-close-menu">
         <svg width="40" height="40" aria-label="Перемикач мобільного меню">
           <use class="icon-cross" href="./images/icons.svg#cross"></use>
         </svg>
       </button>
+
       <nav class="menu-nav">
         <ul class="menu-nav__list list">
           <li class="menu-nav__item">
@@ -618,12 +620,12 @@
         </ul>
       </nav>
       <ul class="menu-address list">
-        <li>
+        <li class="menu-address__item">
           <a href="tel:+380961111111" class="menu-address__tel">
             +38 096 111 11 11
           </a>
         </li>
-        <li>
+        <li class="menu-address__item">
           <a href="mailto:info@devstudio.com" class="menu-address__mail">
             info@devstudio.com
           </a>

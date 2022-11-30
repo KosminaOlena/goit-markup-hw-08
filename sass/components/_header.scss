@@ -26,14 +26,15 @@
 
 
 .head-address {
+    @media screen and (max-width: 767px) {
+            display: none;
+        }
     
     @media screen and (min-width: 1200px){
     display: flex;
     }
     
-    @media screen and (max-width: 767px) {
-            display: none;
-        }
+    
 }
 
 .site-nav__link--current {
@@ -59,7 +60,9 @@
 
 
 .head-address__item:not(:last-child) {
+@media screen and (min-width: 1200px) {
     margin-right: 40px;
+}
 }
 
 .site-nav__link {
