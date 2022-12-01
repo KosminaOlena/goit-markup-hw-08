@@ -98,7 +98,8 @@ display: flex;
 
 
 .footer__input {
-    width: 450px;
+    
+    width: 90vw;
     height: 50px;
     padding-left: 16px;
     padding-right: 16px;
@@ -112,6 +113,10 @@ display: flex;
     @media screen and (max-width: 1199px) {
         margin-bottom: 20px;
     }
+        @media screen and (min-width: 480px) {
+            width: 450px;
+            margin-right: 12px;
+        }
     @media screen and (min-width: 1200px) {
     width: 358px;
     margin-right: 12px;

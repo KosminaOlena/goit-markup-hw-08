@@ -91,7 +91,7 @@
 .menu-nav__link {
     display: block;
         font-weight: 500;
-        font-size: 40px;
+        font-size: 30px;
         line-height: 1.18;
         letter-spacing: 0.02em;
         color: $text-primary-color;
@@ -99,11 +99,14 @@
         &:focus {
             color: $accent-color;
         }
+        @media screen and (min-width:480px) {
+        font-size: 40px;
+        }
 }
 .menu-socials__link {
     display: block;
         font-weight: 500;
-        font-size: 18px;
+        font-size: 12px;
         line-height: 1.22;
         letter-spacing: 0.02em;
     
@@ -112,6 +115,9 @@
             &:focus {
             color: $active-color;
             }
+                        @media screen and (min-width:480px) {
+                            font-size: 18px;
+                        }
 }
 .menu-socials__list {
     display: flex;
@@ -122,13 +128,19 @@
             color: $active-color;
         }
     &:not(:last-child) {
-        padding-right: 20px;
+        padding-right: 7px;
+        @media screen and (min-width: 480px) {
+            padding-right: 20px;
+        }
         
     }
         
     &:not(:first-child) {
-        padding-left: 20px;
+        padding-left: 7px;
         border-left: 1px solid rgba(33, 33, 33, 0.2);
+        @media screen and (min-width: 480px) {
+                padding-right: 20px;
+            }
         
     }
 }
@@ -148,19 +160,22 @@
 .menu-address__tel {
         display: block; 
         font-weight: 500;
-        font-size: 34px;
+        font-size: 25px;
         line-height: 1.18;
         letter-spacing: 0.02em;
         color: $accent-color;
         &:hover, &:focus {
             color: $active-color;
+        @media screen and (min-width: 480px) {
+        font-size: 34px;
+        }
             
         }
 }
 .menu-address__mail {
         display: block;
         font-weight: 500;
-        font-size: 24px;
+        font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.02em;
         color: $text-secondary-color;
@@ -168,4 +183,7 @@
             &:focus {
                 color: $active-color;
             }
+                        @media screen and (min-width: 480px) {
+                            font-size: 24px;
+                        }
 }

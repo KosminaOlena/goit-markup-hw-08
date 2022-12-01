@@ -28,8 +28,12 @@
     }
 }
 .projects__item {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
     @media screen and (max-width: 767px){
     &:not(:last-child) {
+        
             margin-bottom: 30px;
         }
     }
